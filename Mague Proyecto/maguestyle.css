@@ -3,7 +3,9 @@ body{
 }
 
 header {
-    background-color: rgb(251, 255, 1);
+    background-color: rgb(250, 175, 12);
+    background-image: linear-gradient(yellow 75%, rgb(250, 175, 12));
+
     color: red; 
     border-style:groove;
     -webkit-text-stroke: 1px rgb(255, 255, 255);
@@ -39,9 +41,19 @@ header {
   border-width: 1px;
 }
 
+/*FORMULARIO*/
 fieldset{
+    border-radius: 8px;
+    box-shadow: 2px 2px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+button{
+    border-radius: 4px;
+}
+select{
+    border-radius: 8px;
+}
+
 
 /*ANIMACIÓN*/
 .fadeIn{
@@ -64,6 +76,7 @@ fieldset{
         opacity:1;
     }
 }
+
 
 /*BTN AGREGAR MAS A LA ORDEN*/
 .btnAgregarOrdenStyle{

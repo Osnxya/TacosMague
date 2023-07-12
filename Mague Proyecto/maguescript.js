@@ -13,7 +13,7 @@ function crearFormulario(contador) {
 
   const nuevoFormulario = document.createElement("form");
   nuevoFormulario.innerHTML = `
-    <h3>Orden ${contador}</h3>
+    <h3 style="-webkit-text-stroke: 1px navy;"> <img src="bola.png" width="13px" height="13px"> Orden ${contador}</h3>
   <fieldset style="background-color: rgb(255, 219, 102);" id="formulario${contadorOrdenes}">
 
             <label for="tacos${contadorOrdenes}">Tacos</label>
